@@ -1,7 +1,7 @@
 import React, { useState, useEffect, ChangeEvent, FormEvent } from 'react';
 import { Link, useHistory } from 'react-router-dom';
 import { FiArrowLeft } from 'react-icons/fi';
-import { LeafletMouseEvent } from 'leaflet';
+import { LeafletMouseEvent, divIcon } from 'leaflet';
 import { Map, TileLayer, Marker } from 'react-leaflet';
 import axios from 'axios';
 
@@ -9,6 +9,7 @@ import api from '../../services/api';
 
 import logo from '../../assets/logo.svg';
 
+import RegisterCompleted from './RegisterCompleted';
 import './styles.css';
 
 interface IItem {
@@ -45,6 +46,7 @@ const CreatePoint: React.FC = () => {
     email: '',
     whatsapp: '',
   });
+  const [registerCompleted, setRegisterCompleted] = useState(false);
 
   useEffect(() => {
     api.get('/items').then(response => {
@@ -137,17 +139,19 @@ const CreatePoint: React.FC = () => {
       items: formItems,
     };
 
-    console.log(data);
-
     await api.post('/points', data);
 
-    alert('Ponto de coleta criado');
+    setRegisterCompleted(true);
 
-    history.push('/');
+    setTimeout(() => {
+      history.push('/');
+    }, 2000);
   }
 
   return (
     <div id="page-create-point">
+      {registerCompleted && <RegisterCompleted />}
+
       <header>
         <img src={logo} alt="Ecolete" />
 

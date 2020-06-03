@@ -1,5 +1,5 @@
 <p align="center">
-    <img alt="NLW" src="https://ik.imagekit.io/hwyksvj4iv/NLW_HAjKunCgg.svg" width="250px" />
+    <img alt="NLW" src="https://ik.imagekit.io/hwyksvj4iv/NLW_HAjKunCgg.svg" width="200px" />
 </p>
 <h1 align="center">
     <img alt="Ecoleta" src="https://ik.imagekit.io/hwyksvj4iv/ecoleta_OdFtkH1U6.svg" width="250px" />

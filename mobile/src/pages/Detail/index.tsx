@@ -21,7 +21,7 @@ interface RouteParams {
 
 interface Data {
   point: {
-    image_url: string;
+    image: string;
     name: string;
     email: string;
     whatsapp: string;
@@ -78,7 +78,7 @@ const Detail: React.FC = () => {
         <Image
           style={styles.pointImage}
           source={{
-            uri: data.point.image_url,
+            uri: data.point.image,
           }}
         />
         <Text style={styles.pointName}>{data.point.name}</Text>

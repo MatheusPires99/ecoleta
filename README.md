@@ -19,11 +19,11 @@
 </h1>
 
 ## :page_with_curl: Sobre
-A Next Level Week é uma semana prática feita pela Rocketseat com muito código, desafios e networking. O método de ensiono da Rocketseat é baseado em três pilares: Prática, Foco e Grupo.
+A Next Level Week é uma semana prática feita pela Rocketseat com muito código, desafios e networking. O método de ensino da Rocketseat é baseado em três pilares: Prática, Foco e Grupo.
 
 Este repositório contém um API REST em Node.js como back-end, uma aplicação em ReactJS como front-end e um app mobile em React Native, todos utilizando TypeScript.
 
-Essa é a aplicação Ecoleta, que é um marketplace fictício para conectar empresas que coletam resídios orgânicos e inorgânicos as pessoas que precisam descartar tais resíduos. Ela foi desenvolvida na semana internacional do meio ambiente (01/06/20).
+Essa é a aplicação Ecoleta, que é um marketplace fictício para conectar empresas que coletam resíduos orgânicos e inorgânicos as pessoas que precisam descartar tais resíduos. Ela foi desenvolvida na semana internacional do meio ambiente (01/06/20).
 
 **Node.js**: é uma API REST que faz todo o CRUD da aplicação, persistência de dados, tratativa de exceções e que serve dados tanto ao front-end quanto ao mobile.
 

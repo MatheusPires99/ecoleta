@@ -15,7 +15,8 @@
 </p>
 
 <h1 align="center">
-    <img alt="Ecoleta" src="https://res.cloudinary.com/matheuspires/image/upload/v1591193429/ecoleta_cstwor.gif" />
+    <img alt="Ecoleta Web" src="https://res.cloudinary.com/matheuspires/image/upload/v1591572827/ecoleta-web_arbvg9.gif" />
+    <img alt="Ecoleta Mobile" src="https://res.cloudinary.com/matheuspires/image/upload/v1591572826/ecoleta-mobile_hltbd0.gif" />
 </h1>
 
 ## :page_with_curl: Sobre
@@ -84,7 +85,7 @@ Essa é a aplicação Ecoleta, que é um marketplace fictício para conectar emp
   $ yarn
 
   # Rodar a aplicação:
-  $ yarn ios ou yarn android 
+  $ yarn start
 ```
 
 Feito com ❤️ por Matheus Pires 👋🏻 [Get in touch!](https://github.com/MatheusPires99)
